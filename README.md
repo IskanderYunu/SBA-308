@@ -1,6 +1,4 @@
 # SBA-308
-Overview
-<break>
 This function takes course data, assignment information, and learner submissions as input and returns an array of objects. Each object includes:
 
 -The learner's unique ID
