@@ -157,7 +157,7 @@ function getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions) {
     });
 
   } catch (error) {
-    // Handle specific errors with a switch statement
+    // Using switch statement
     switch (error.message) {
       case "Mismatched Course":
         console.error("Error: Wrong Course.");
@@ -166,6 +166,5 @@ function getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions) {
     return [];
   }
 }
-
 
 console.log(getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions));
