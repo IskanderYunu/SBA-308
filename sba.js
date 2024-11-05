@@ -160,7 +160,7 @@ function getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions) {
     // Using switch statement
     switch (error.message) {
       case "Mismatched Course":
-        console.error("Error: Wrong Course.");
+        console.log("Error: Wrong Course.");
         break;
     }
     return [];
